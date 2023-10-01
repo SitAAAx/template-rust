@@ -11,7 +11,15 @@
           pre-commit-check = pre-commit-hooks.lib.${system}.run {
             src = ./.;
             hooks = {
+              cargo-check.enable = true;
+              clippy.enable = true;
+              # convco.enable = true;
+              # cspell.enable = true;
+              markdownlint.enable = true;
               nixpkgs-fmt.enable = true;
+              rustfmt.enable = true;
+              taplo.enable = true;
+              yamllint.enable = true;
             };
           };
         };

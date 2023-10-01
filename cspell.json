@@ -1,0 +1,30 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": [
+    "bash",
+    "companies",
+    "corp-terms",
+    "en_gb",
+    "en_us",
+    "filetypes",
+    "lorem-ipsum",
+    "public-licenses",
+    "rust",
+    "softwareTerms"
+    ],
+  "words": [
+    "nixpkgs",
+    "pre-commit"
+  ],
+  "flagWords": [
+    "hte"
+  ],
+  "ignorePaths": [
+    ".github/**",
+    ".gitignore",
+    "cspell.json",
+    "flake.nix",
+    "LICENSE"
+  ]
+}
